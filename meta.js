@@ -72,6 +72,10 @@ module.exports = {
           short: 'builder'
         }
       ]
+    },
+    element: {
+      type: 'confirm',
+      message: 'Use the Element library of UI components?'
     }
   },
   helpers: {
