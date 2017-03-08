@@ -2,6 +2,11 @@ import Vue from 'vue'
 {{#isEnabled plugins 'vue-electron'}}
 import Electron from 'vue-electron'
 {{/isEnabled}}
+{{#if element}}
+import ElementUI from 'element-ui'
+import locale from 'element-ui/lib/locale/lang/en'
+import './theme/index.css'
+{{/if}}
 {{#isEnabled plugins 'vue-resource'}}
 import Resource from 'vue-resource'
 {{/isEnabled}}
@@ -15,6 +20,9 @@ import routes from './routes'
 {{#isEnabled plugins 'vue-electron'}}
 Vue.use(Electron)
 {{/isEnabled}}
+{{#if element}}
+Vue.use(ElementUI, { locale })
+{{/if}}
 {{#isEnabled plugins 'vue-resource'}}
 Vue.use(Resource)
 {{/isEnabled}}
