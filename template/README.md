@@ -21,6 +21,11 @@ npm run lint
 {{/if}}
 # run webpack in production
 npm run pack
+{{#if element}}
+
+# regenerate Element component styles in theme/ from element-variables.css
+npm run theme
+{{/if}} 
 ```
 More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/docs/npm_scripts.html).
 

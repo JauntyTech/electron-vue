@@ -31,6 +31,9 @@
     {{#if unit}}
     "unit": "cross-env BABEL_ENV=testing-unit karma start test/unit/karma.conf.js",
     {{/if}}
+    {{#if element}}
+    "theme": "et -c app/src/renderer/element-variables.css -o app/src/renderer/theme",
+    {{/if}}
     "postinstall": "{{#if eslint}}npm run lint:fix && {{/if}}cd app && npm install"
   },
   {{#if_eq builder 'builder'}}
