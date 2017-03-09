@@ -80,6 +80,10 @@ module.exports = {
     pug: {
       type: 'confirm',
       message: 'Enable Pug to pre-process Vue component templates?'
+    },
+    sass: {
+      type: 'confirm',
+      message: 'Enable Sass to pre-process Vue component styles?'
     }
   },
   helpers: {
