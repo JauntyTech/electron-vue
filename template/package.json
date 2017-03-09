@@ -31,6 +31,9 @@
     {{#if unit}}
     "unit": "cross-env BABEL_ENV=testing-unit karma start test/unit/karma.conf.js",
     {{/if}}
+    {{#if element}}
+    "theme": "et -c app/src/renderer/element-variables.css -o app/src/renderer/theme",
+    {{/if}}
     "postinstall": "{{#if eslint}}npm run lint:fix && {{/if}}cd app && npm install"
   },
   {{#if_eq builder 'builder'}}
@@ -135,6 +138,11 @@
     "chai": "^3.5.0",
     "mocha": "^3.0.2",
     {{/testing}}
+    {{#if element}}
+    "element-theme": "^0.7.1",
+    "element-theme-default": "^1.2.3",
+    "element-ui": "^1.2.3",
+    {{/if}}
     "style-loader": "^0.13.1",
     "tree-kill": "^1.1.0",
     "url-loader": "^0.5.7",

@@ -72,6 +72,10 @@ module.exports = {
           short: 'builder'
         }
       ]
+    },
+    element: {
+      type: 'confirm',
+      message: 'Use the Element library of UI components?'
     }
   },
   helpers: {
@@ -107,6 +111,8 @@ module.exports = {
     'app/src/renderer/routes.js': 'plugins[\'vue-router\']',
     'app/src/renderer/components/LandingPageView/CurrentPage.vue': 'plugins[\'vue-router\']',
     'app/src/renderer/vuex/**/*': 'plugins[\'vuex\']',
+    'app/src/renderer/element-variables.css': 'element',
+    'app/src/renderer/theme/**/*': 'element',
     'builds/**/*': 'builder === \'packager\'',
     'tasks/vue/**/*': 'plugins[\'vue-router\']',
     'tasks/vuex/**/*': 'plugins[\'vuex\']',
@@ -115,7 +121,8 @@ module.exports = {
     'tasks/release.js': 'builder === \'packager\'',
     'test/.eslintrc': 'e2e || unit',
     '.eslintignore': 'eslint',
-    '.eslintrc.js': 'eslint'
+    '.eslintrc.js': 'eslint',
+    '.gitattributes': 'element'
   },
   completeMessage: `---
 
