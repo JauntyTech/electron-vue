@@ -76,6 +76,10 @@ module.exports = {
     element: {
       type: 'confirm',
       message: 'Use the Element library of UI components?'
+    },
+    pug: {
+      type: 'confirm',
+      message: 'Enable Pug to pre-process Vue component templates?'
     }
   },
   helpers: {
