@@ -34,3 +34,7 @@ Run end-to-end tests with Spectron + Mocha. More information on **[End-to-end te
 
 ### `npm test`
 Runs both `npm run unit` & `npm run e2e`. More information on **[Testing](testing.md)**.
+
+### `npm run theme`
+Regenerate Element component styles in `app/src/renderer/theme/` from `app/src/renderer/element-variables.css`
+(See element-theme documentation [here](http://element.eleme.io/#/en-US/component/custom-theme))

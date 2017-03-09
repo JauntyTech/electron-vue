@@ -1,12 +1,39 @@
 [![](docs/logo.png)](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html)
 
-> The boilerplate for making electron apps built with vue \(pretty much what it sounds like\).
+> A fork of the boilerplate for making electron apps built with Vue
+
+> [SimulatedGREG's electron-vue boilerplate](https://github.com/SimulatedGREG/electron-vue) +
+  [Element](http://element.eleme.io/) +
+  [Pug](https://pugjs.org/) +
+  [Sass](http://sass-lang.com/) +
+  [Yarn](https://yarnpkg.com/)
+
+This gives you 3 additional
+[vue-cli](https://github.com/vuejs/vue-cli) options:
+![](docs/4-new-terminal-options.png)
 
 [![Build Status](https://semaphoreci.com/api/v1/simulatedgreg/electron-vue/branches/master/badge.svg)](https://semaphoreci.com/simulatedgreg/electron-vue)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)
+
+## Why use Element, Pug, Sass, and/or Yarn?
+
+These tools make Vue app development easier:
+
+- **[Element](http://element.eleme.io/) provides useful and good-looking UI components**
+  - This template includes... Element dependencies and the default Element theme files
+  - So you can immediately... use Element components like `<el-date-picker>`
+- **[Pug](https://pugjs.org/) makes template tags more readable**
+  - This template includes... Pug dependencies
+  - So you can immediately... use Pug in Vue component template tags with `<template lang="pug">`
+- **[Sass](http://sass-lang.com/) makes style tags more readable**
+  - This template includes... Sass dependencies
+  - So you can immediately... use Sass in Vue component style tags with `<style lang="sass">`
+- **[Yarn](https://yarnpkg.com/) prevents a lot of versioning problems**
+  - This template includes... instructions for how to use `yarn` instead of `npm install`
+  - So you can immediately... lock down your project dependencies with specific version numbers
 
 ## Overview
 
@@ -40,7 +67,7 @@ This boilerplate was built as a template for [vue-cli](https://github.com/vuejs/
 ```bash
 # Install vue-cli and scaffold boilerplate
 npm install -g vue-cli
-vue init simulatedgreg/electron-vue my-project
+vue init JauntyTech/electron-vue-plus my-project
 
 # Install dependencies and run your app
 cd my-project
@@ -53,7 +80,7 @@ npm run dev
 Just point to the `1.0` branch. Please note that electron-vue has officially deprecated `vue@^1` and documentation reflects those changes. Use the [**legacy documentation**](https://github.com/SimulatedGREG/electron-vue/tree/1.0/docs) if you are using Vue 1.
 
 ```bash
-vue init simulatedgreg/electron-vue#1.0 my-project
+vue init JauntyTech/electron-vue-plus#1.0 my-project
 ```
 
 ##### Are you a Windows User?
