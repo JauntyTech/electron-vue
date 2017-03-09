@@ -143,6 +143,9 @@
     "element-theme-default": "^1.2.3",
     "element-ui": "^1.2.3",
     {{/if}}
+    {{#if pug}}
+    "pug": "^2.0.0-beta11",
+    {{/if}}
     "style-loader": "^0.13.1",
     "tree-kill": "^1.1.0",
     "url-loader": "^0.5.7",
