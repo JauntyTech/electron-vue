@@ -7,7 +7,7 @@ Let's say we need to use Sass/SCSS for pre-processing our CSS. Firstly, we need 
 
 #### Installing `sass-loader` in our root directory
 ```bash
-npm install --save-dev sass-loader node-sass
+yarn add sass-loader node-sass
 ```
 
 Once the loader we need is installed, everything is pretty much finished. `vue-loader` will magically take care of the rest. Now we can easily add `lang="sass"` or `lang="scss"` to our Vue component files. Notice we also installed `node-sass` as it is a dependent package for `sass-loader`.

@@ -7,7 +7,7 @@ node scaffold.js "$1"
 
 # Install dependecies
 cd "$PWD/builds/$1"
-npm install
+yarn
 
 # Run unit/e2e testing
 npm test

@@ -44,7 +44,7 @@ vue init simulatedgreg/electron-vue my-project
 
 # Install dependencies and run your app
 cd my-project
-npm install
+yarn
 npm run dev
 ```
 
@@ -71,4 +71,3 @@ Be up to date with new features and improvements by checking on the [GitHub Proj
 ### Contributing
 
 Wanting to submit a pull request? Make sure to read [this](docs/contributing.md) first.
-

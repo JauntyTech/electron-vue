@@ -140,6 +140,6 @@ Make sure to check out the documentation for this boilerplate at \x1b[33mhttps:/
 
 Next steps:
   1. \x1b[34mcd {{destDirName}}\x1b[0m
-  2. \x1b[34mnpm install\x1b[0m
+  2. \x1b[34myarn\x1b[0m
   3. \x1b[34mnpm run dev\x1b[0m`
 }

@@ -5,8 +5,8 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# install dependencies with Yarn (yarnpkg.com) 
+yarn
 
 # serve with hot reload at localhost:9080
 npm run dev
@@ -25,7 +25,7 @@ npm run pack
 
 # regenerate Element component styles in theme/ from element-variables.css
 npm run theme
-{{/if}} 
+{{/if}}
 ```
 More information can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/docs/npm_scripts.html).
 
